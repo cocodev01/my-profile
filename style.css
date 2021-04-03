@@ -1,0 +1,124 @@
+/* Colors and fonts */
+body {
+	background: rgb(234,200,175);
+	color: rgb(27,32,33);
+	font-family: 'Noto Sans JP', sans-serif;
+	font-size: 16px;
+	font-weight: 300;
+	}
+
+h1, h2 {
+	color: rgb(95,147,154);
+	font-family: 'Roboto', sans-serif;
+	}
+
+h1 {
+	font-size: 32px;
+	font-weight: 800;
+	}
+
+h2 {
+	font-size: 24px;
+	font-weight: 500;
+	}
+
+a {
+	text-decoration: none;
+	color: rgb(95,147,154);
+	font-weight: 300;
+	transition: color 0.9s ease;
+   }
+
+a:hover {
+	text-decoration: none;
+	color: rgb(95,147,154);
+	font-weight: 500;
+   }
+
+
+
+/*Custom design with class*/
+.container {
+	width: 700px;
+	margin: 40px auto;
+}
+
+@media (max-width: 960px) {
+	.container {
+		width: 700px;
+	}
+}
+
+@media (max-width: 720px) {
+	.container {
+		width: 500px;
+	}
+}
+
+@media (max-width: 540px) {
+	.container {
+		width: 300px;
+	}
+}
+
+.card-pink {
+	background: rgb(216,172,156);
+	padding: 40px;
+	box-shadow: 0px 10px 30px rgba(0,0,0.1);
+	border-radius: 4px;
+	margin: 20px 0px;
+	text-align: center;
+}
+
+.img-circle {
+	border-radius: 50%;
+}
+
+.btn-blue {
+	background-color: rgb(216,172,156);
+	color: rgb(27,32,33);
+	border: dashed rgb(95,147,154);
+	padding: 15px 20px;
+	border-radius: 4px;
+}
+
+.btn-blue:hover {
+	background-color: rgb(95,147,154);
+	color: rgb(27,32,33);
+	font-size: 18px;
+}
+
+.list-inline {
+	list-style: none;
+	padding-left: 0px;
+}
+
+.list-inline li {
+	display: inline;
+	padding: 10px;
+}
+
+.list-inline i {
+	font-size: 50px;
+	color: rgb(27,32,33);
+}
+
+.list-inline i:hover {
+	font-size: 60px;
+	color: rgb(95,147,154);
+}
+
+#introduction p {
+	margin-bottom: 40px;
+}
+
+#lovemusic p {
+	margin-bottom: 40px;
+}
+
+
+
+
+
+
+
